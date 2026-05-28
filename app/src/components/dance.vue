@@ -2,7 +2,6 @@
 export default {
   components: {
   },
-  props: ['mobileClassesProp', 'desktopClassesProp'], 
   data() {
     return {
       cnt:0,
@@ -223,8 +222,6 @@ export default {
           </div>
         </div>
         </div>
-        <h2 :class="mobileClassesProp"> Успей записаться на бесплатное занятие! </h2>
-        <h2 :class="desctopClassesProp"> Не пропусти бесплатный урок!</h2>
     </div>
   </main>
 </template>
